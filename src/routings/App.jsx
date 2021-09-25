@@ -5,15 +5,25 @@ import TopPage from '~/components/pages/TopPage';
 import PlayerPage from '~/components/pages/PlayerPage';
 import NotFoundPage from '~/components/pages/NotFoundPage';
 
-const AppRouting = () => (
-  <BrowserRouter>
+// const a = () => (1)
+
+// const b = () => {
+//   return 3
+// }
+
+
+
+const AppRouting = () => {
+  // console.log(process.env.YouTubeAPI);
+ return  (
+ <BrowserRouter>
     <Switch>
       <Route path="/" exact title="トップ" component={TopPage} />
       <Route path="/play/:videoId" title="動画再生" component={PlayerPage} />
       <Route path="*" component={NotFoundPage} />
     </Switch>
-  </BrowserRouter>
-);
+  </BrowserRouter>)
+};
 
 export default AppRouting;
 

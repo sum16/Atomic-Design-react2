@@ -1,0 +1,2 @@
+#apiキー挿入コマンド
+ YOUTUBE_API_KEY=AIzaSyC7UnGBvUwvK2vykPSahMYOjuDLcO7r7Js node key.js
