@@ -74,6 +74,7 @@ export const InputContainer = ({
   });
 };
 
+// isRequiredは型を必須にしたい時に使う
 InputContainer.propTypes = {
   className: PropTypes.string,
   onChange: PropTypes.func,
