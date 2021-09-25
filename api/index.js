@@ -1,8 +1,9 @@
 const express = require('express');
 const { google } = require('googleapis');
+// const { YOUTUBE_API_KEY } = require('../api_key');
 
 /* 先ほど取得したAPIキーを設定する */
-const YOUTUBE_API_KEY = 'AIzaSyC7UnGBvUwvK2vykPSahMYOjuDLcO7r7Js';
+
 
 const youtube = google.youtube({
   version: 'v3',
