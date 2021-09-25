@@ -14,7 +14,7 @@ import NotFoundPage from '~/components/pages/NotFoundPage';
 
 
 const AppRouting = () => {
-  // console.log(process.env.YouTubeAPI);
+  console.log(process.env.YouTubeAPI);
  return  (
  <BrowserRouter>
     <Switch>
