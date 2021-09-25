@@ -15,6 +15,7 @@
   
 
 ## Templates  
+・UIの構造や配置に責務を持つよう設計
 ・ページの雛形で*具体的なコンテンツは持たない*  
 ・AtomsやMolecules、Organism層などのコンポーネントを実際のプロダクトのページと同様に配置   
 ・**コンポーネントがページ上で正しくレイアウトされているかを確認する**のが目的  
@@ -48,3 +49,25 @@ Templates
 Pages  
   
 -TopPage トップページ  
+  
+
+## 環境構築  
+  
+
+```
+git clone <リポジトリ>
+```
+  
+
+```
+npm install
+//package.jsonを元に、必要なパッケージを勝手にインストールする
+```
+  
+```
+npm run build
+```
+
+```
+npm run start
+```
