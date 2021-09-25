@@ -9,7 +9,7 @@
   
 
 ## Organisms  
-・単体コンポーネントで*完結する*コンテンツを提供  
+・*単体コンポーネントで完結する*コンテンツを提供  
 ・AtomsやMoleculesで構成されるコンポーネント群  
 ・Organisms層のコンポーネント自体も*別のOrganisms層のコンポーネントを構成する要素になりえる*  
   
@@ -22,5 +22,29 @@
 
 ## Pages  
 ・Templates層のコンポーネントに実際のコンテンツを流し込んだもの  
-・**ユーザーがプロダクト上で実際に触れられる**
+・**ユーザーがプロダクト上で実際に触れられる**  
+  
+  
 
+Atoms  
+  
+-Typography 文字列表示  
+-Input テキスト入力  
+-Button ボタン  
+-Image 画像  
+-Spinner スピナー(ローディングを表す部品)  
+  
+Organisms    
+  
+-Header ヘッダ  
+-SearchForm 検索フォーム  
+-VideosListItem 動画リストアイテム   
+-VideosList 動画リスト  
+
+Templates  
+  
+-VideosListTemplates 動画一覧で使うテンプレート  
+
+Pages  
+  
+-TopPage トップページ  
