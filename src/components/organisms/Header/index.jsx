@@ -24,3 +24,18 @@ Header.defaultProps = {
 };
 
 export default Header;
+
+
+// () => ()は以下の省略
+
+// export const header = () => {
+//   const a = 1
+//   const b = 2
+    
+//    return ( <Header>
+//     <div>
+//       <a href="">aaa{a + b}</a>
+//       YouTube Viewer
+//       </div>
+//     </Header>)
+//   }
